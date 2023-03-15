@@ -5,6 +5,7 @@ Read the Word of God from your terminal — Aqra l-Kelma tal-Mulej mit-terminal 
 
 Forked from [lukesmithxyz/kjv](https://github.com/lukesmithxyz/kjv) but with the source text replaced by with [the Maltese Catholic bible](https://malti.global.bible/).
 
+![Use of bibbja](preview.gif)
 
 ## Usage
 
