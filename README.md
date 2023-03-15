@@ -1,13 +1,13 @@
-# kjv
+# Bibbja
 
 Read the Word of God from your terminal
 
-Forked from [https://github.com/bontibon/kjv.git](https://github.com/bontibon/kjv.git) but with the Apocrypha added.
+Forked from [lukesmithxyz/kjv](https://github.com/lukesmithxyz/kjv) but with the source text replaced by with [the Maltese Catholic bible](https://malti.global.bible/).
 
 
 ## Usage
 
-    usage: ./kjv [flags] [reference...]
+    usage: ./bibbja [flags] [reference...]
 
       -l      list books
       -W      no line wrap
@@ -36,10 +36,10 @@ Forked from [https://github.com/bontibon/kjv.git](https://github.com/bontibon/kj
 
 ## Build
 
-kjv can be built by cloning the repository and then running make:
+bibbja can be built by cloning the repository and then running make:
 
-    git clone https://github.com/lukesmithxyz/kjv.git
-    cd kjv
+    git clone https://github.com/drmenguin/bibbja.git
+    cd bibbja
     sudo make install
 
 ## License
