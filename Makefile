@@ -1,24 +1,24 @@
 PREFIX = /usr/local
 
-kjv: kjv.sh kjv.awk kjv.tsv
-	cat kjv.sh > $@
+bibbja: bibbja.sh bibbja.awk bibbja.tsv
+	cat bibbja.sh > $@
 	echo 'exit 0' >> $@
 	echo '#EOF' >> $@
-	tar czf - kjv.awk kjv.tsv >> $@
+	tar czf - bibbja.awk bibbja.tsv >> $@
 	chmod +x $@
 
-test: kjv.sh
-	shellcheck -s sh kjv.sh
+test: bibbja.sh
+	shellcheck -s sh bibbja.sh
 
 clean:
-	rm -f kjv
+	rm -f bibbja
 
-install: kjv
+install: bibbja
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
-	cp -f kjv $(DESTDIR)$(PREFIX)/bin
-	chmod 755 $(DESTDIR)$(PREFIX)/bin/kjv
+	cp -f bibbja $(DESTDIR)$(PREFIX)/bin
+	chmod 755 $(DESTDIR)$(PREFIX)/bin/bibbja
 
 uninstall:
-	rm -f $(DESTDIR)$(PREFIX)/bin/kjv
+	rm -f $(DESTDIR)$(PREFIX)/bin/bibbja
 
 .PHONY: test clean install uninstall
