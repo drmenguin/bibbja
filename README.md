@@ -1,4 +1,4 @@
-# Bibbja
+# Bibbja 🇲🇹
 [![License:gpl3](https://img.shields.io/badge/License-GPL%20v.3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 Read the Word of God from your terminal — Aqra l-Kelma tal-Mulej mit-terminal tiegħek.
