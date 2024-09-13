@@ -52,5 +52,5 @@ For users of Arch-based distros, `bibbja` is also available in the Arch User Rep
 For example, a user with `yay` installed might install `bibbja` with the following command:
 
 ```
-yay install bibbja
+yay -S bibbja
 ```
